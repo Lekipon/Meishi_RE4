@@ -1,4 +1,4 @@
-## *Meishi RE4 : A Lighting Equpment(?)*
+# *Meishi RE4 : A Lighting Equpment(?)*
 
 ![](https://raw.githubusercontent.com/Lekipon/Meishi_RE4/main/img/re4_01.JPG)
 
@@ -59,7 +59,10 @@ Meishi RE4は一見ロータリーエンコーダ一を4つ備えたマクロパ
 ## QMKファームウェアについて
 
 - デフォルトの[HEXファイル](https://github.com/Lekipon/ASTRA515/blob/master/hex/lekipon_astra515_default.hex)を用意していますので、QMK Toolbox等でProMicroに書込して使用してください。なお、デフォルトでは外部LEDの個数は8個に設定しています。
+
 - デフォルトでは以下の写真のように機能が設定されています。
+
+  ![](https://raw.githubusercontent.com/Lekipon/Meishi_RE4/main/img/re4_03.JPG)
 
 - QMKの[本家](https://github.com/qmk/qmk_firmware)には「Meishi RE4」のコードはまだマージされていませんので、デフォルトファームウェアをカスタマイズしたい場合は当面の間[このフォークしたQMK](https://github.com/Lekipon/qmk_firmware)を使用してください。
 
@@ -85,6 +88,8 @@ make lekipon/meishi_re4:default:flash
 <br>
 
 ## 使用例
+
+![](https://raw.githubusercontent.com/Lekipon/Meishi_RE4/main/img/re4_02.JPG)
 
 - 写真では、PCデスクの天板の裏にLEDテープを8個分貼付して、手元の照明に使用しています。
 - 作者自身は今のところLEDの点灯テストや照明器具としての用途しか考慮していませんが、他に有効な活用方法を見つけていただけたら幸いです。
