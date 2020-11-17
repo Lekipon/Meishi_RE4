@@ -1,6 +1,6 @@
 # *Meishi RE4 : A Lighting Equpment(?)*
 
-![](https://raw.githubusercontent.com/Lekipon/Meishi_RE4/main/img/re4_01.JPG)
+<img src="https://raw.githubusercontent.com/Lekipon/Meishi_RE4/main/img/re4_01.JPG" width="640" />
 
 
 
@@ -50,7 +50,7 @@ Meishi RE4は一見ロータリーエンコーダ一を4つ備えたマクロパ
 
 ## 必要な工具類
 
-- ハンダごて（HAKKO FX600を推奨・別売コテ先はT18-C2かT18-D16がおすすめ）
+- ハンダごて
 - ハンダこて台
 - 普通のハンダ（スズ60％/鉛40％）
 
@@ -62,9 +62,11 @@ Meishi RE4は一見ロータリーエンコーダ一を4つ備えたマクロパ
 
 - デフォルトでは以下の写真のように機能が設定されています。
 
-  ![](https://raw.githubusercontent.com/Lekipon/Meishi_RE4/main/img/re4_03.JPG)
+  <img src="https://raw.githubusercontent.com/Lekipon/Meishi_RE4/main/img/re4_03.JPG" width="640" />  
 
-- QMKの[本家](https://github.com/qmk/qmk_firmware)には「Meishi RE4」のコードはまだマージされていませんので、デフォルトファームウェアをカスタマイズしたい場合は当面の間[このフォークしたQMK](https://github.com/Lekipon/qmk_firmware)を使用してください。
+  QMKの[本家](https://github.com/qmk/qmk_firmware)には「Meishi RE4」のコードはまだマージされていませんので、デフォルトファームウェアをカスタマイズしたい場合は当面の間[このフォークしたQMK](https://github.com/Lekipon/qmk_firmware)を使用してください。
+
+  <br>
 
 - 既にQMKファームウェアのビルド環境を構築をしている方は、ダウンロードしたqmk_firmware-master.zipを解凍して、出来上がった「qmk_firmware-master/」フォルダの中から「keyboards/lekipon」以下の中身をご自身のビルド環境にコピーしても大丈夫だと思います（lekiponフォルダには作者が他に開発したキーボードのファームウェアも一緒に入っています）。
 - ビルドする際にはコマンドライン上でQMKビルド環境のルートフォルダに入って、以下のコマンドでコンパイルします。
@@ -89,7 +91,7 @@ make lekipon/meishi_re4:default:flash
 
 ## 使用例
 
-![](https://raw.githubusercontent.com/Lekipon/Meishi_RE4/main/img/re4_02.JPG)
+<img src="https://raw.githubusercontent.com/Lekipon/Meishi_RE4/main/img/re4_02.JPG" width="640" />
 
 - 写真では、PCデスクの天板の裏にLEDテープを8個分貼付して、手元の照明に使用しています。
 - 作者自身は今のところLEDの点灯テストや照明器具としての用途しか考慮していませんが、他に有効な活用方法を見つけていただけたら幸いです。
