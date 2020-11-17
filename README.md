@@ -1,6 +1,10 @@
 ## *Meishi RE4 : A Lighting Equpment(?)*
 
-![re4_01](\img\re4_01.JPG)
+![(\img\re4_01.JPG)
+
+![](https://github.com/Lekipon/Meishi_RE4/blob/main/img/re4_01.JPG)
+
+
 
 ------
 
