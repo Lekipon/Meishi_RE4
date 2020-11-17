@@ -32,7 +32,7 @@ Meishi RE4は一見ロータリーエンコーダ一を4つ備えたマクロパ
 
 ## キットに含まれている部品
 
-1：PCB 1枚（WS2812Bを表面に3カ所＋4ピンピンソケットを実装済）
+1：PCB 1枚（WS2812Bを表面に3カ所＋4ピンのL型ピンソケットを実装済）
 
 2：ゴム足（小4個）
 
@@ -52,27 +52,24 @@ Meishi RE4は一見ロータリーエンコーダ一を4つ備えたマクロパ
 
 - ハンダごて
 - ハンダこて台
-- 普通のハンダ（スズ60％/鉛40％）
+- 普通のハンダ
 
 <br>
 
 ## QMKファームウェアについて
 
-- デフォルトの[HEXファイル](https://raw.githubusercontent.com/Lekipon/Meishi_RE4/main/hex/lekipon_meishi_re4_default.hex)を用意していますので、QMK Toolbox等でProMicroに書込して使用してください。なお、デフォルトでは外部LEDの個数は8個に設定しています。
+- デフォルトの[HEXファイル](https://raw.githubusercontent.com/Lekipon/Meishi_RE4/main/hex/lekipon_meishi_re4_default.hex)を用意していますので、QMK Toolbox等でProMicroに書込して使用してください。なお、デフォルトファームウェアでは外部LEDの個数は8個に設定しています。
 
 - デフォルトでは以下の写真のように機能が設定されています。
 
   <img src="https://raw.githubusercontent.com/Lekipon/Meishi_RE4/main/img/re4_03.JPG" width="640" />  
-
-  
-
-  
 
   QMKの[本家](https://github.com/qmk/qmk_firmware)には「Meishi RE4」のコードはまだマージされていませんので、デフォルトファームウェアをカスタマイズしたい場合は当面の間[このフォークしたQMK](https://github.com/Lekipon/qmk_firmware)を使用してください。
 
   
 
 - 既にQMKファームウェアのビルド環境を構築をしている方は、ダウンロードしたqmk_firmware-master.zipを解凍して、出来上がった「qmk_firmware-master/」フォルダの中から「keyboards/lekipon」以下の中身をご自身のビルド環境にコピーしても大丈夫だと思います（lekiponフォルダには作者が他に開発したキーボードのファームウェアも一緒に入っています）。
+
 - ビルドする際にはコマンドライン上でQMKビルド環境のルートフォルダに入って、以下のコマンドでコンパイルします。
 
 ```
