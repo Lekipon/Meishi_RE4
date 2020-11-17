@@ -58,7 +58,7 @@ Meishi RE4は一見ロータリーエンコーダ一を4つ備えたマクロパ
 
 ## QMKファームウェアについて
 
-- デフォルトの[HEXファイル](https://github.com/Lekipon/ASTRA515/blob/master/hex/lekipon_astra515_default.hex)を用意していますので、QMK Toolbox等でProMicroに書込して使用してください。なお、デフォルトでは外部LEDの個数は8個に設定しています。
+- デフォルトの[HEXファイル](https://raw.githubusercontent.com/Lekipon/Meishi_RE4/main/hex/lekipon_meishi_re4_default.hex)を用意していますので、QMK Toolbox等でProMicroに書込して使用してください。なお、デフォルトでは外部LEDの個数は8個に設定しています。
 
 - デフォルトでは以下の写真のように機能が設定されています。
 
